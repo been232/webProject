@@ -87,7 +87,6 @@ function addChild(str, value, id) {
 
     li.classList.add("table");
     li.setAttribute("value", value);
-    li.setAttribute("id", id);
     setOrder(li, id);
 
     div.classList.add("cell");
